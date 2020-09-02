@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 0;
+  width: 100%;
+
+  .navbar-link{
+    font-size: 14px;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+      color: #bbb;
+    }
+  }
+  .navbar-main {
+
+  }
+  
+  .navbar-sub {
+    .navbar-sub-btn{
+      padding: 10px;
+      margin-left: 15px;
+      font-size: 14px;
+      color: white;
+      background-color: #333;
+      border: 1px solid white;
+      border-radius: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      &:hover{
+        background-color: white;
+        color: #333;
+      }
+    }
+  }
+}
