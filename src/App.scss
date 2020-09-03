@@ -1,6 +1,11 @@
 .app{
+    display: flex;
+    flex-direction: column;
     .app-header{
-        display: flex;
-        justify-content: space-between;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        opacity: .8;
+
     }
 }
