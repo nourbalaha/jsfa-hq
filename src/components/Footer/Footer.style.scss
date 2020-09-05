@@ -1,0 +1,20 @@
+// #30567E
+// #F5E88F
+// #3978A1
+// #FFFEFF
+// #3AC2BF
+// #F3DA51
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3AC2BF;
+    padding: 30px 0;
+
+    .footer-text {
+        color: #FFFEFF;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
