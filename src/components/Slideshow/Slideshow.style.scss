@@ -1,3 +1,10 @@
+// #30567E
+// #F5E88F
+// #3978A1
+// #FFFEFF
+// #3AC2BF
+// #F3DA51
+
 .slideshow-container {
   width: 100vw;
 }
@@ -10,58 +17,31 @@
     align-items: center;
 }
 
-.image1 {
-    background-image: url(../../assets/DSC02007.JPG);
-    background-size: cover;
-    background-position: top;
+.image {
+    background-color: #30567E;
 }
 
-.image2 {
-    background-image: url(../../assets/DSC02026.JPG);
-    background-size: cover;
-    background-position: top;
-}
-
-.image3 {
-    background-image: url(../../assets/DSC02055.JPG);
-    background-size: cover;
-    background-position: top;
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: flex;
-}
-
-
-img {
-    width: 100%;
-    position: relative;
+.logo {
+  width: 300px;
+  margin-bottom: 50px;
+  animation: fade 3s;
 }
 
 .text1 {
     animation-name: moveFromLeft;
     animation-duration: 2s;
-    color: white;
-    font-size: 72px;
+    font-size: 48px;
     font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 50px;
+    color:  #F5E88F;
 }
 
 .text2 {
     animation-name: moveFromRight;
     animation-duration: 2s;
-    color: white;
-    font-size: 48px;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: .5s;
+    font-size: 32px;
+    color: #3AC2BF;
 }
 
 @keyframes fade {
