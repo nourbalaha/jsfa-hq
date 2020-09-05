@@ -1,15 +1,26 @@
+// #30567E
+// #F5E88F
+// #3978A1
+// #FFFEFF
+// #3AC2BF
+// #F3DA51
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #FFFEFF;
   padding: 15px 50px;
+  border-bottom: 3px solid #3AC2BF;
   
   .navbar-link{
+    text-decoration: none;
     font-size: 14px;
-    color: white;
+    font-weight: bold;
+    color: #30567E;
     padding: 0 10px;
     text-transform: uppercase;
+    transition: all 1s;
     cursor: pointer;
     &:hover{
       color: #bbb;
@@ -24,15 +35,18 @@
       padding: 10px;
       margin-left: 15px;
       font-size: 14px;
-      color: white;
-      background-color: #333;
-      border: 1px solid white;
+      font-weight: bold;
+      color: #FFFEFF;
+      background-color: #30567E;
+      transition: all 1s;
+      border: 1px solid #FFFEFF;
       border-radius: 5px;
       text-transform: uppercase;
       cursor: pointer;
       &:hover{
-        background-color: white;
-        color: #333;
+        background-color: #FFFEFF;
+        color: #30567E;
+        border: 1px solid #30567E;
       }
     }
   }

@@ -6,11 +6,11 @@ export default function Navbar() {
         <div className='navbar'>
 
           <div className='navbar-main'>
-            <span className='navbar-link'>About</span>
-            <span className='navbar-link'>Committee</span>
-            <span className='navbar-link'>Education Center</span>
-            <span className='navbar-link'>Activities</span>
-            <span className='navbar-link'>Information</span>
+            <a href="#about" className='navbar-link'>About</a>
+            <a href="#committee" className='navbar-link'>Committee</a>
+            <a href="#education" className='navbar-link'>Education Center</a>
+            <a href="#activities" className='navbar-link'>Activities</a>
+            <a href="#information" className='navbar-link'>Information</a>
           </div>
 
           <div class='navbar-sub'>
