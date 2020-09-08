@@ -13,7 +13,7 @@ export default function Navbar() {
             <a href="#information" className='navbar-link'>Information</a>
           </div>
 
-          <div class='navbar-sub'>
+          <div className='navbar-sub'>
             <span className='navbar-link'><i class='fa fa-facebook' /></span>
             <span className='navbar-link'><i class='fa fa-linkedin' /></span>
             <span className='navbar-link'><i class='fa fa-twitter' /></span>
